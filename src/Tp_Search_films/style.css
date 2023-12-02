@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to left top, rgb(7, 7, 117), rgb(12, 12, 80),rgb(7, 7, 117), black);
+    background-attachment: fixed;
+}
+  
+#search{
+    position: fixed;
+    top:20px;
+    left:0;
+    width: 100%;
+    z-index: 5;
+}
+
+#search input{
+    box-shadow: 0px 0px 2px 0px black;
+    background-color: rgba(60, 60, 126, 0.92);
+    color:white;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.image{
+    border-radius:5px ;
+}
+
+.card{
+    transition: 0.5s;
+}
+
+.card:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transform: translate(0,10px);
+    transition: 0.5s;
+}
+
+.border{
+    box-shadow: 0px 0px 20px 0px black;
+    transition: 0.5s;
+}
+
+#borderDetails{
+    height: 90%;
+    color: white;
+}
