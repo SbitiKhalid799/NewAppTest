@@ -1,12 +1,14 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Search from './Tp_Search_films/Search';
+import Connection from './Tp_routage/seConnecter';
+// import Search from './Tp_Search_films/Search';//Tp_Search_films
 
 
 function App() {
   return (
     <>
-    <Search/>
+    {/* <Search/> */}
+    <Connection/>
     </>
   );
 }
